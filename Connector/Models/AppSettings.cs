@@ -10,5 +10,7 @@ namespace Connector.Models
         public AuthenticationParameter? AuthenticationParameter { get; set; }
         public string? OutputDirectory { get; set; }
         public Method Method { get; set; }
+        public List<RequestModel> Requests { get; set; }
+
     }
 }
